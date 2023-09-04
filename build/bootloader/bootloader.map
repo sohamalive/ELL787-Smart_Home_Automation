@@ -772,8 +772,12 @@ Discarded input sections
 <<<<<<< HEAD
  .debug_str     0x0000000000000000     0x153e esp-idf/efuse/libefuse.a(esp_efuse_table.c.obj)
 =======
+<<<<<<< HEAD
+ .debug_str     0x0000000000000000     0x153e esp-idf/efuse/libefuse.a(esp_efuse_table.c.obj)
+=======
  .debug_str     0x0000000000000000     0x1540 esp-idf/efuse/libefuse.a(esp_efuse_table.c.obj)
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
  .comment       0x0000000000000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_table.c.obj)
  .literal.esp_efuse_get_pkg_ver
                 0x0000000000000000        0x8 esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
@@ -805,8 +809,12 @@ Discarded input sections
 <<<<<<< HEAD
  .debug_str     0x0000000000000000      0x5aa esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
 =======
+<<<<<<< HEAD
+ .debug_str     0x0000000000000000      0x5aa esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
+=======
  .debug_str     0x0000000000000000      0x5ac esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
  .comment       0x0000000000000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
  .literal.esp_efuse_read_field_blob
                 0x0000000000000000       0x14 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
@@ -898,8 +906,12 @@ Discarded input sections
 <<<<<<< HEAD
  .debug_str     0x0000000000000000      0x733 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
 =======
+<<<<<<< HEAD
+ .debug_str     0x0000000000000000      0x733 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
+=======
  .debug_str     0x0000000000000000      0x735 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
  .comment       0x0000000000000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
  .literal.write_reg
                 0x0000000000000000       0x1c esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
@@ -1013,8 +1025,12 @@ Discarded input sections
 <<<<<<< HEAD
  .debug_str     0x0000000000000000      0xa13 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
 =======
+<<<<<<< HEAD
+ .debug_str     0x0000000000000000      0xa13 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
+=======
  .debug_str     0x0000000000000000      0xa15 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
  .comment       0x0000000000000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
  .literal.esp_efuse_get_coding_scheme$part$0
                 0x0000000000000000        0x4 esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
@@ -1096,8 +1112,12 @@ Discarded input sections
 <<<<<<< HEAD
  .debug_str     0x0000000000000000     0x1c69 esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
 =======
+<<<<<<< HEAD
+ .debug_str     0x0000000000000000     0x1c69 esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
+=======
  .debug_str     0x0000000000000000     0x1c6b esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
  .comment       0x0000000000000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
  .literal.esp_efuse_utility_clear_program_registers
                 0x0000000000000000        0x4 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
@@ -1143,8 +1163,12 @@ Discarded input sections
 <<<<<<< HEAD
  .debug_str     0x0000000000000000      0x75a esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
 =======
+<<<<<<< HEAD
+ .debug_str     0x0000000000000000      0x75a esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
+=======
  .debug_str     0x0000000000000000      0x75c esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
  .comment       0x0000000000000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
  .text          0x0000000000000000        0x0 esp-idf/esp_hw_support/libesp_hw_support.a(cpu_region_protect.c.obj)
  .data          0x0000000000000000        0x0 esp-idf/esp_hw_support/libesp_hw_support.a(cpu_region_protect.c.obj)
@@ -1315,8 +1339,12 @@ Discarded input sections
 <<<<<<< HEAD
  .debug_str     0x0000000000000000      0x240 esp-idf/soc/libsoc.a(gpio_periph.c.obj)
 =======
+<<<<<<< HEAD
+ .debug_str     0x0000000000000000      0x240 esp-idf/soc/libsoc.a(gpio_periph.c.obj)
+=======
  .debug_str     0x0000000000000000      0x242 esp-idf/soc/libsoc.a(gpio_periph.c.obj)
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
  .comment       0x0000000000000000       0x30 esp-idf/soc/libsoc.a(gpio_periph.c.obj)
  .text          0x0000000000000000        0x0 esp-idf/hal/libhal.a(mpu_hal.c.obj)
  .data          0x0000000000000000        0x0 esp-idf/hal/libhal.a(mpu_hal.c.obj)
@@ -1416,8 +1444,12 @@ Discarded input sections
 <<<<<<< HEAD
  .debug_str     0x0000000000000000      0x235 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_loader.c.obj)
 =======
+<<<<<<< HEAD
+ .debug_str     0x0000000000000000      0x235 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_loader.c.obj)
+=======
  .debug_str     0x0000000000000000      0x237 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_loader.c.obj)
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
  .comment       0x0000000000000000       0x30 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_loader.c.obj)
  .text          0x0000000000000000       0x18 /home/abhishek/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/no-rtti/libgcc.a(_ashldi3.o)
  .data          0x0000000000000000        0x0 /home/abhishek/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/no-rtti/libgcc.a(_ashldi3.o)
@@ -5433,6 +5465,9 @@ OUTPUT(bootloader.elf elf32-xtensa-le)
  .debug_line    0x00000000000198d0     0x14c6 esp-idf/hal/libhal.a(mmu_hal.c.obj)
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 .debug_str      0x0000000000000000     0xa752
  .debug_str     0x0000000000000000      0x1e6 esp-idf/soc/libsoc.a(dport_access.c.obj)
                                         0x223 (size before relaxing)
@@ -5504,6 +5539,8 @@ OUTPUT(bootloader.elf elf32-xtensa-le)
                                        0x23e7 (size before relaxing)
  .debug_str     0x000000000000a40c      0x346 esp-idf/hal/libhal.a(mmu_hal.c.obj)
                                         0x5e7 (size before relaxing)
+<<<<<<< HEAD
+=======
 =======
 .debug_str      0x0000000000000000     0xa754
  .debug_str     0x0000000000000000      0x1e8 esp-idf/soc/libsoc.a(dport_access.c.obj)
@@ -5577,6 +5614,7 @@ OUTPUT(bootloader.elf elf32-xtensa-le)
  .debug_str     0x000000000000a40e      0x346 esp-idf/hal/libhal.a(mmu_hal.c.obj)
                                         0x5e9 (size before relaxing)
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 
 Cross Reference Table
 

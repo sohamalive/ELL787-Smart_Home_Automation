@@ -1,5 +1,9 @@
 <<<<<<< HEAD
 cmd='/home/abhishek/.espressif/tools/cmake/3.24.0/bin/cmake;-DSDKCONFIG=/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/sdkconfig;-DIDF_PATH=/home/abhishek/esp/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/home/abhishek/.espressif/python_env/idf5.1_py3.11_env/bin/python;-DEXTRA_COMPONENT_DIRS=/home/abhishek/esp/esp-idf/components/bootloader;-DPROJECT_SOURCE_DIR=/home/abhishek/Sem-3/Embedded/Projects/Blink_LED;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
 =======
+<<<<<<< HEAD
+cmd='/home/abhishek/.espressif/tools/cmake/3.24.0/bin/cmake;-DSDKCONFIG=/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/sdkconfig;-DIDF_PATH=/home/abhishek/esp/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/home/abhishek/.espressif/python_env/idf5.1_py3.11_env/bin/python;-DEXTRA_COMPONENT_DIRS=/home/abhishek/esp/esp-idf/components/bootloader;-DPROJECT_SOURCE_DIR=/home/abhishek/Sem-3/Embedded/Projects/Blink_LED;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
+=======
 cmd='/home/abhishek/.espressif/tools/cmake/3.24.0/bin/cmake;-DSDKCONFIG=/home/abhishek/Sem-3/Embedded/Projects/hello_world/sdkconfig;-DIDF_PATH=/home/abhishek/esp/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/home/abhishek/.espressif/python_env/idf5.1_py3.11_env/bin/python;-DEXTRA_COMPONENT_DIRS=/home/abhishek/esp/esp-idf/components/bootloader;-DPROJECT_SOURCE_DIR=/home/abhishek/Sem-3/Embedded/Projects/hello_world;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2

@@ -42,7 +42,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
 <<<<<<< HEAD
   include("/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
 =======
+<<<<<<< HEAD
+  include("/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
+=======
   include("/home/abhishek/Sem-3/Embedded/Projects/hello_world/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 endif()
 

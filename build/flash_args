@@ -3,6 +3,10 @@
 <<<<<<< HEAD
 0x10000 Blink_LED.bin
 =======
+<<<<<<< HEAD
+0x10000 Blink_LED.bin
+=======
 0x10000 hello_world.bin
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 0x8000 partition_table/partition-table.bin

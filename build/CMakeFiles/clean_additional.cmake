@@ -7,7 +7,12 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "Blink_LED.bin"
   "Blink_LED.map"
 =======
+<<<<<<< HEAD
+  "Blink_LED.bin"
+  "Blink_LED.map"
+=======
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
   "bootloader/bootloader.bin"
   "bootloader/bootloader.elf"
   "bootloader/bootloader.map"
@@ -21,9 +26,12 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "flasher_args.json"
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
   "hello_world.bin"
   "hello_world.map"
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
   "ldgen_libraries"
   "ldgen_libraries.in"
   "project_elf_src_esp32.c"

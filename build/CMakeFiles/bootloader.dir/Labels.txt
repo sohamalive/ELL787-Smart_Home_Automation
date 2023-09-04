@@ -2,6 +2,9 @@
  bootloader
 # Source files and their labels
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/CMakeFiles/bootloader
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/CMakeFiles/bootloader.rule
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/CMakeFiles/bootloader-complete.rule
@@ -12,6 +15,8 @@
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+<<<<<<< HEAD
+=======
 =======
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/CMakeFiles/bootloader
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/CMakeFiles/bootloader.rule
@@ -24,3 +29,4 @@
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2

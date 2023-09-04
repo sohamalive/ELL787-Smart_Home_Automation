@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/xtensa/libxtensa.a
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/esp_ringbuf/libesp_ringbuf.a
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/efuse/libefuse.a
@@ -61,6 +64,8 @@
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/spiffs/libspiffs.a
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/main/libmain.a
+<<<<<<< HEAD
+=======
 =======
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/esp-idf/xtensa/libxtensa.a
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/esp-idf/esp_ringbuf/libesp_ringbuf.a
@@ -125,3 +130,4 @@
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/esp-idf/main/libmain.a
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2

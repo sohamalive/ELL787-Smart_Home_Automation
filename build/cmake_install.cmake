@@ -1,8 +1,12 @@
 <<<<<<< HEAD
 # Install script for directory: /home/abhishek/Sem-3/Embedded/Projects/Blink_LED
 =======
+<<<<<<< HEAD
+# Install script for directory: /home/abhishek/Sem-3/Embedded/Projects/Blink_LED
+=======
 # Install script for directory: /home/abhishek/Sem-3/Embedded/Projects/hello_world
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,8 +50,12 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
 <<<<<<< HEAD
   include("/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/cmake_install.cmake")
 =======
+<<<<<<< HEAD
+  include("/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/cmake_install.cmake")
+=======
   include("/home/abhishek/Sem-3/Embedded/Projects/hello_world/build/esp-idf/cmake_install.cmake")
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +69,10 @@ string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
 <<<<<<< HEAD
 file(WRITE "/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/${CMAKE_INSTALL_MANIFEST}"
 =======
+<<<<<<< HEAD
+file(WRITE "/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/${CMAKE_INSTALL_MANIFEST}"
+=======
 file(WRITE "/home/abhishek/Sem-3/Embedded/Projects/hello_world/build/${CMAKE_INSTALL_MANIFEST}"
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

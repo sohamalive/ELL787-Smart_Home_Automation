@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/bootloader/CMakeFiles/menuconfig.dir
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/bootloader/CMakeFiles/confserver.dir
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/bootloader/CMakeFiles/save-defconfig.dir
@@ -79,6 +82,8 @@
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/bootloader/esp-idf/main/CMakeFiles/__idf_main.dir
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/bootloader/esp-idf/main/CMakeFiles/edit_cache.dir
 /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/bootloader/esp-idf/main/CMakeFiles/rebuild_cache.dir
+<<<<<<< HEAD
+=======
 =======
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/bootloader/CMakeFiles/menuconfig.dir
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/bootloader/CMakeFiles/confserver.dir
@@ -161,3 +166,4 @@
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/bootloader/esp-idf/main/CMakeFiles/edit_cache.dir
 /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/bootloader/esp-idf/main/CMakeFiles/rebuild_cache.dir
 >>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
