@@ -60,7 +60,6 @@ while(true)
 
 void app_main(void)
 {
-    printf("Welcome to the Indoor Environment Monitoring System and Smart Clock!\n");
     wifi_module_post_test();
     fflush(stdout);
 }

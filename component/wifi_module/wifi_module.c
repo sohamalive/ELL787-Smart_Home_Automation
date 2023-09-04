@@ -12,7 +12,6 @@
 #include "esp_system.h"
 #include "esp_mac.h"
 
-#define BORDER "-----------------------------------------------------------\n"
 #define ESP32_MAC_READ_SUCCESS "Successfully read the MAC address on chip\n"
 #define ESP32_MAC_READ_FAILED "Unsuccessfully read the MAC address on chip\n"
 
@@ -45,7 +44,7 @@ bool check_mac(uint8_t* chipid){
 }
 
 void wifi_module_post_test(){
-    printf(BORDER);
+
     printf("ESP32 chip Wi-Fi Module POST TEST: \n");
     printf("The output for the esp32 Wi-Fi module POST test is below: \n");
     esp_chip_info_t chip_info;
@@ -66,5 +65,5 @@ void wifi_module_post_test(){
     } else {
         printf(ESP32_MAC_READ_FAILED);
     }
-    printf(BORDER);
+
 }
