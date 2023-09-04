@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 # Install script for directory: /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/main
+=======
+<<<<<<< HEAD
+# Install script for directory: /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/main
+=======
+# Install script for directory: /home/abhishek/Sem-3/Embedded/Projects/hello_world/main
+>>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
+>>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
