@@ -1,4 +1,8 @@
 --flash_mode dio --flash_freq 40m --flash_size 2MB
 0x1000 bootloader/bootloader.bin
+<<<<<<< HEAD
 0x10000 Blink_LED.bin
+=======
+0x10000 hello_world.bin
+>>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
 0x8000 partition_table/partition-table.bin

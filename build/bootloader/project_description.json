@@ -1,8 +1,13 @@
 {
     "project_name":       "bootloader",
     "project_path":       "/home/abhishek/esp/esp-idf/components/bootloader/subproject",
+<<<<<<< HEAD
     "build_dir":          "/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/bootloader",
     "config_file":        "/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/sdkconfig",
+=======
+    "build_dir":          "/home/abhishek/Sem-3/Embedded/Projects/hello_world/build/bootloader",
+    "config_file":        "/home/abhishek/Sem-3/Embedded/Projects/hello_world/sdkconfig",
+>>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
     "config_defaults":    "",
     "bootloader_elf":     "",
     "app_elf":            "bootloader.elf",

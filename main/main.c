@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
@@ -23,3 +24,20 @@ while(true)
 //    portTICK_PERIOD_MS
 }
 }
+=======
+/*
+ * SPDX-FileCopyrightText: 2010-2022 Espressif Systems (Shanghai) CO LTD
+ *
+ * SPDX-License-Identifier: CC0-1.0
+ */
+
+#include <stdio.h>
+#include "wifi_module.h"
+
+void app_main(void)
+{
+    printf("Welcome to the Indoor Environment Monitoring System and Smart Clock!\n");
+    wifi_module_post_test();
+    fflush(stdout);
+}
+>>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
