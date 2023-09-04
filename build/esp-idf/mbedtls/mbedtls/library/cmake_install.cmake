@@ -38,10 +38,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a")
 endif()
 
@@ -51,19 +47,5 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/mbedtls/mbedtls/library/libmbedtls.a")
-<<<<<<< HEAD
-=======
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/abhishek/Sem-3/Embedded/Projects/hello_world/build/esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/abhishek/Sem-3/Embedded/Projects/hello_world/build/esp-idf/mbedtls/mbedtls/library/libmbedx509.a")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/abhishek/Sem-3/Embedded/Projects/hello_world/build/esp-idf/mbedtls/mbedtls/library/libmbedtls.a")
->>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
->>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 endif()
 

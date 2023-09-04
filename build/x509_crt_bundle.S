@@ -1,12 +1,4 @@
-<<<<<<< HEAD
 /* * Data converted from /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/mbedtls/x509_crt_bundle
-=======
-<<<<<<< HEAD
-/* * Data converted from /home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build/esp-idf/mbedtls/x509_crt_bundle
-=======
-/* * Data converted from /home/abhishek/Sem-3/Embedded/Projects/hello_world/build/esp-idf/mbedtls/x509_crt_bundle
->>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
->>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
  */
 .data
 .section .rodata.embedded

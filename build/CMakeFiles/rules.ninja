@@ -6,15 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-<<<<<<< HEAD
 # Project: Blink_LED
-=======
-<<<<<<< HEAD
-# Project: Blink_LED
-=======
-# Project: hello_world
->>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
->>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
 # Configurations: 
 # =============================================================================
 # =============================================================================
@@ -22,15 +14,7 @@
 #############################################
 # Rule for compiling C files.
 
-<<<<<<< HEAD
 rule C_COMPILER__Blink_LED.2eelf_
-=======
-<<<<<<< HEAD
-rule C_COMPILER__Blink_LED.2eelf_
-=======
-rule C_COMPILER__hello_world.2eelf_
->>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
->>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
   depfile = $DEP_FILE
   deps = gcc
   command = /home/abhishek/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -40,15 +24,7 @@ rule C_COMPILER__hello_world.2eelf_
 #############################################
 # Rule for linking CXX executable.
 
-<<<<<<< HEAD
 rule CXX_EXECUTABLE_LINKER__Blink_LED.2eelf_
-=======
-<<<<<<< HEAD
-rule CXX_EXECUTABLE_LINKER__Blink_LED.2eelf_
-=======
-rule CXX_EXECUTABLE_LINKER__hello_world.2eelf_
->>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
->>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
   command = $PRE_LINK && /home/abhishek/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -1361,15 +1337,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-<<<<<<< HEAD
   command = /home/abhishek/.espressif/tools/cmake/3.24.0/bin/cmake --regenerate-during-build -S/home/abhishek/Sem-3/Embedded/Projects/Blink_LED -B/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build
-=======
-<<<<<<< HEAD
-  command = /home/abhishek/.espressif/tools/cmake/3.24.0/bin/cmake --regenerate-during-build -S/home/abhishek/Sem-3/Embedded/Projects/Blink_LED -B/home/abhishek/Sem-3/Embedded/Projects/Blink_LED/build
-=======
-  command = /home/abhishek/.espressif/tools/cmake/3.24.0/bin/cmake --regenerate-during-build -S/home/abhishek/Sem-3/Embedded/Projects/hello_world -B/home/abhishek/Sem-3/Embedded/Projects/hello_world/build
->>>>>>> 135971b5358d82581bba5bad5a1062a8a9c42e84
->>>>>>> 862e96eea59d6f0bc9819138f110085d1deaf0e2
   description = Re-running CMake...
   generator = 1
 
