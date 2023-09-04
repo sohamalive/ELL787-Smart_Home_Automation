@@ -1,1 +1,1 @@
-# Smart_Home_Automative
+# Smart Home Automation
