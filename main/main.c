@@ -51,14 +51,6 @@ void errorHandler(int response)
 	}
 }
 
-/*-------------------------------------------------------------------------------
-;
-;	get next state 
-;
-;	I don't like this logic. It needs some interrupt blocking / priority
-;	to ensure it runs in realtime.
-;
-;--------------------------------------------------------------------------------*/
 
 int getSignalLevel( int usTimeOut, bool state )
 {
@@ -76,33 +68,6 @@ int getSignalLevel( int usTimeOut, bool state )
 	return uSec;
 }
 
-/*----------------------------------------------------------------------------
-;
-;	read DHT22 sensor
-copy/paste from AM2302/DHT22 Docu:
-DATA: Hum = 16 bits, Temp = 16 Bits, check-sum = 8 Bits
-Example: MCU has received 40 bits data from AM2302 as
-0000 0010 1000 1100 0000 0001 0101 1111 1110 1110
-16 bits RH data + 16 bits T data + check sum
-1) we convert 16 bits RH data from binary system to decimal system, 0000 0010 1000 1100 → 652
-Binary system Decimal system: RH=652/10=65.2%RH
-2) we convert 16 bits T data from binary system to decimal system, 0000 0001 0101 1111 → 351
-Binary system Decimal system: T=351/10=35.1°C
-When highest bit of temperature is 1, it means the temperature is below 0 degree Celsius. 
-Example: 1000 0000 0110 0101, T= minus 10.1°C: 16 bits T data
-3) Check Sum=0000 0010+1000 1100+0000 0001+0101 1111=1110 1110 Check-sum=the last 8 bits of Sum=11101110
-Signal & Timings:
-The interval of whole process must be beyond 2 seconds.
-To request data from DHT:
-1) Sent low pulse for > 1~10 ms (MILI SEC)
-2) Sent high pulse for > 20~40 us (Micros).
-3) When DHT detects the start signal, it will pull low the bus 80us as response signal, 
-   then the DHT pulls up 80us for preparation to send data.
-4) When DHT is sending data to MCU, every bit's transmission begin with low-voltage-level that last 50us, 
-   the following high-voltage-level signal's length decide the bit is "1" or "0".
-	0: 26~28 us
-	1: 70 us
-;----------------------------------------------------------------------------*/
 
 #define MAXdhtData 5	// to complete 40 = 5*8 Bits
 
@@ -203,8 +168,7 @@ void app_main() {
     // Initialize ESP32 system
     esp_err_t ret = esp_system_init();
     if (ret != ESP_OK) {
-        // Handle initialization error
-        // You can log an error message, blink an LED, or take any appropriate action.
+      
     }
 
     // Set up GPIO pin for DHT22 sensor
@@ -213,20 +177,17 @@ void app_main() {
     // Perform DHT22 sensor initialization and test
     ret = initDHT();
     if (ret != DHT_OK) {
-        // Handle sensor initialization error
-        // You can log an error message, blink an LED, or take any appropriate action.
+       
     }
 
     // Read data from DHT22 sensor
     ret = readDHT();
     if (ret != DHT_OK) {
-        // Handle sensor reading error
-        // You can log an error message, blink an LED, or take any appropriate action.
+       
     }
 
-    // Use the humidity and temperature data as needed
+    
     float humidity = getHumidity();
     float temperature = getTemperature();
 
-    // Your application logic here
 }
